@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+	<title>Cyber Academy - Email Spoofer</title>
+
+</head>
+<body>
+
+<!-- Header CSS Start -->
+<header class="text-gray-700 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-red-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 text-xl">Cyber Academy</span>
+    </a>
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+      <a href="https://www.youtube.com/channel/UCRv-wp0CWtW2J33NkTId62w" class="mr-5 hover:text-gray-900">YouTube</a>
+      <a href="https://github.com/Technowlogy-Pushpender" class="mr-5 hover:text-gray-900">GitHub</a>
+    </nav>
+	<a href="https://www.youtube.com/channel/UCRv-wp0CWtW2J33NkTId62w">
+    <button class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-red-300 rounded text-base mt-4 md:mt-0">Subscribe On YouTube
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button>
+	</a>
+  </div>
+</header>
+<!-- Header CSS End -->
+<hr>
+
+<!-- Form CSS Start -->
+<form action="mailer.php" method="post">
+<section class="text-gray-700 body-font relative">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-12">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">PHP Email Spoofer</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Fill The Required Details to Send a Spoofed Email.</p>
+    </div>
+    <div class="lg:w-1/2 md:w-2/3 mx-auto">
+      <div class="flex flex-wrap -m-2">
+        <div class="p-2 w-1/2">
+          <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Sender's Name" type="text" name="s_name">
+        </div>
+        <div class="p-2 w-1/2">
+          <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Sender's Email" type="email" name="s_email">
+        </div>		
+        <div class="p-2 w-1/2">
+          <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Subject" type="text" name="subject">
+        </div>
+        <div class="p-2 w-1/2">
+          <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Reciever's Email" type="email" name="r_email">
+        </div>		
+        <div class="p-2 w-full">
+          <textarea class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 resize-none block" placeholder="Message" name="message"></textarea>
+        </div>
+        <div class="p-2 w-full">
+          <button class="flex mx-auto text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded text-lg" type="submit">Send Email</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</form>
+<!-- Form CSS End -->
+<hr>
+
+<!-- Footer CSS Start -->
+<footer class="text-gray-700 body-font">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-red-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 text-xl">Cyber Academy</span>
+    </a>
+    <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2020 Pushpender —
+      <a href="https://github.com/Technowlogy-Pushpender" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@</a>Technowlogy-Pushpender
+    </p>
+  </div>
+</footer>
+<!-- Footer CSS End -->
+
+
+</body>
+</html> 
