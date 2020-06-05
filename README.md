@@ -29,7 +29,7 @@ THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. YOU MAY USE THIS
 - [x] Simple & Good Looking UI
 
 ## Prerequisite
-- [x] Any Web Hosting Service Which Supports (**Premium Hosting is Recommend**)
+- [x] Any Web Hosting Service Which Supports PHP (**Premium Hosting is Recommend**)
 
 ## Installation & Usage
 ```bash
