@@ -10,7 +10,8 @@ $sender_email = $_POST['s_email'];
 $random_hash = md5(date('r', time())); 
 
 $headers = "From: " . $sender_name . "<" . $sender_email . ">";
-$headers .= "\r\nContent-Type: multipart/mixed; boundary=\"PHP-mixed-".$random_hash."\""; 
+//$headers .= "\r\nContent-Type: multipart/mixed; boundary=\"PHP-mixed-".$random_hash."\""; 
+$headers .= "\r\nContent-Type: text/html; charset=UTF-8; boundary=\"PHP-mixed-".$random_hash."\"";
 
 $mail_sent = mail( $to, $subject, $message, $headers );
 
