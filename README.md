@@ -45,14 +45,6 @@ $ git clone https://github.com/PushpenderIndia/fakemailer.git
 * You can use Free Hosting as well such as `000webhost`, but there is high chance that email get marked as spam
 * You can only send limited amount of emails if you upload this to free hosting. example- `000webhost` allows to send 25 emails per day
 
-## Demo
-http://devilishere666.000webhostapp.com/
-
 ## Screenshot
 ![](/Screenshots/fakemailerV1.JPG)
 
-## Contact
-
-singhpushpender250@gmail.com 
-
-## More Features Coming Soon...
